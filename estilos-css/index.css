@@ -1,0 +1,25 @@
+/* Estilos globais da pagina */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html, body{
+    height: 100vh;
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+header {
+    background-color: rgb(131,131,131);
+    background-color: #0080ed;
+
+    
+}
+

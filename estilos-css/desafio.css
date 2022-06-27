@@ -1,0 +1,67 @@
+/* Estilos Desafio */
+.desafio {
+    display: flex;
+    height: 400px;
+    border: 1px solid #0080ed;
+    margin: 100px auto;
+    max-width: 980px;
+    border-radius: 20px;
+}
+
+.desafio .h1-contato {
+    display: grid;
+    padding-left: 120px;
+    color: #0080ED;
+    align-content: center
+}
+
+
+.desafio .h1-contato h2 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 1.334;
+    color: rgb(131, 131, 131);
+    padding: 5px 0;
+
+}
+
+.desafio .caixa-preencher {
+    display: grid;
+    align-content: center;
+}
+
+.desafio .caixa-preencher input {
+
+    margin: 10px;
+    border-radius: 20px;
+    margin-bottom: 13px;
+    width: 380px;
+    padding-left: 20px;
+    font-size: 18px;
+    height: 50px;
+    border: 2px solid #0080ed;
+}
+
+.desafio .caixa-preencher textarea {
+    margin: 10px;
+    border-radius: 20px;
+    margin-bottom: 13px;
+    width: 380px;
+    padding: 20px;
+    font-size: 20px;
+    height: 100px;
+    border: 2px solid #0080ed;
+    resize: none;
+
+
+}
+
+.caixa-preencher [type="button"] {
+    background-color: #0080ed;
+    color: rgb(250, 246, 246);
+}
+
+.caixa-preencher [type="button"]:hover {
+    cursor: pointer;
+}
