@@ -1,4 +1,8 @@
 /* Estilos dos Cards */
+a{
+    text-decoration: none;
+}
+
 .cards {
     width: 90%;
     max-width: 780px;
@@ -21,6 +25,7 @@
     cursor: pointer;
     box-shadow: 5px 5px 15px -4px #000000;
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
 }
 
 .card:hover{
@@ -32,6 +37,8 @@
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 225px;
 }
 
 .image img{

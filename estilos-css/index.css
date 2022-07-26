@@ -9,7 +9,6 @@
 }
 
 html, body{
-    height: 100vh;
     font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;

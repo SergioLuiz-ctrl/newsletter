@@ -22,29 +22,29 @@
             <div class="menu-section">
                 <div class="container-menu">
                     <input type="checkbox" id="checkbox-menu" />
-                    <label for="checkbox-menu">
+                    <label class="menu-button-container" for="checkbox-menu">
                         <span></span>
                         <span></span>
                         <span></span>
                     </label>
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#artigos">Artigos</a>
+                            </li>
+                            <li>
+                                <a href="#form">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Artigos</a>
-                        </li>
-                        <li>
-                            <a href="#">Contato</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </header>
-    <main>
+    <main id="home">
         <div class="container-main">
             <div>
                 <h2><span>Inscreva-se agora</span></h2>
@@ -61,67 +61,71 @@
             <img src="imagens/triade-tecnologia.png" alt="">
         </div>
     </main>
-    <section class="cards">
-        <div class="card">
-            <div class="image">
-                <img src="imagens/programacao.jpg" />
-            </div>
+    <section  id ="artigos" class="cards">
+        <a target="_blank" href="https://www.startse.com/artigos/tesla-produz-menos-e-vende-75percent-das-bitcoins">
+            <div class="card">
+                <div class="image">
+                    <img src="imagens/tesla.jpg" />
+                </div>
 
-            <div class="content">
-                <p class="title text--medium">
-                    Com startups mais 'baratas', grandes empresas buscam aquisições
-                    57 Min
-                </p>
-                <div class="info">
-                    <p class="imagens/programacao.jpg"></p>
+                <div class="content">
+                    <p class="title text--medium">
+                        Tesla produz menos e vende 75% das bitcoins
+                    </p>
+                    <div class="info">
+                        <p class="imagens/programacao.jpg"></p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
+        <a target="_blank" href="https://www.startse.com/artigos/instagram-libera-compras-diretamente-no-chat/">
+            <div class="card">
+                <div class="image">
+                    <img src="imagens/programacao.jpg" />
+                </div>
+
+                <div class="content">
+                    <p class="title text--medium">
+                        Instagram libera compras diretamente no chat
+                    </p>
+                    <div class="info">
+                        <p class="text--medium"></p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="./artigos/inovacao.html">
+            <div class="card">
+                <div class="image">
+                    <img src="imagens/lampada.jpg" />
+                </div>
+
+                <div class="content">
+                    <p class="title text--medium">
+                        Inovação digital: conheça 9 setores em que ela é muito forte
+                    </p>
+                    <div class="info">
+                        <p class="text--medium"></p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a  target="_blank" href="https://www.startse.com/artigos/como-a-nike-se-tornou-gigante/">
         <div class="card">
             <div class="image">
-                <img src="imagens/programacao.jpg" />
+                <img src="imagens/sneaker.jpg" />
             </div>
 
             <div class="content">
                 <p class="title text--medium">
-                    Com startups mais 'baratas', grandes empresas buscam aquisições
-                    57 Min
+                    Nike: uma história de como uma empresa "de garagem" se tornou gigante
                 </p>
                 <div class="info">
                     <p class="text--medium"></p>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="image">
-                <img src="imagens/programacao.jpg" />
-            </div>
-
-            <div class="content">
-                <p class="title text--medium">
-                    Com startups mais 'baratas', grandes empresas buscam aquisições
-                    57 Min
-                </p>
-                <div class="info">
-                    <p class="text--medium"></p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="image">
-                <img src="imagens/programacao.jpg" />
-            </div>
-
-            <div class="content">
-                <p class="title text--medium">
-                    Com startups mais 'baratas', grandes empresas buscam aquisições
-                    57 Min
-                </p>
-                <div class="info">
-                    <p class="text--medium"></p>
-                </div>
-            </div>
-        </div>
+    </a>
     </section>
     <section id="form">
         <div class="desafio">
@@ -132,7 +136,7 @@
                 <h2>em breve entraremos</h2>
                 <h2>em contato.</h2>
             </div>
-            <div class="caixa-preencher"> 
+            <div class="caixa-preencher">
                 <input type="text" placeholder="Nome" />
                 <input type="email" placeholder="E-mail" />
                 <textarea name="comentario" placeholder="Mensagem"></textarea>

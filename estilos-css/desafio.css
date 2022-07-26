@@ -64,4 +64,6 @@
 
 .caixa-preencher [type="button"]:hover {
     cursor: pointer;
+    color: rgb(250, 246, 246);
+    transform: translateY(-2);
 }

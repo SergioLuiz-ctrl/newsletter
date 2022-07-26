@@ -35,3 +35,7 @@ header nav ul li a:hover {
 header .container img{
     height: 30px;
 }
+
+#checkbox-menu {
+    display: none;
+}
